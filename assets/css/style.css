@@ -1,0 +1,37 @@
+body{
+    background-color: #CCC;
+}
+
+#game{
+    display: flex;
+    height: 88vh;
+}
+
+#main-btn{
+    width: 200px;
+}
+
+.game-screen{
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-options .btn{
+    width: 100%;
+    margin-bottom: 4px;
+    border: 1px solid #CCC;
+    text-align: left;
+}
+
+.btn-options .btn:hover,
+.btn-options .active{
+    background-color: #039203;
+    color: #FFFFFF;
+}
